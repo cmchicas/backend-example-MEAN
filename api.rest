@@ -1,0 +1,27 @@
+###
+GET  http://localhost:3000/api/employees
+
+###
+POST  http://localhost:3000/api/employees
+Content-Type: application/json
+
+{
+    "name": "cchicas7",
+    "position": "Developer",
+    "office": "El Salvador",
+    "salary": 2000
+}
+
+###
+GET  http://localhost:3000/api/employees/60b1918803999c35a4361f71
+
+###
+PUT   http://localhost:3000/api/employees/60b1918803999c35a4361f71
+Content-Type: application/json
+
+{
+    "salary": 8000
+}
+
+###
+DELETE  http://localhost:3000/api/employees/60b190934344a608400bc141
